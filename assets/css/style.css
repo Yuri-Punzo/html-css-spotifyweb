@@ -101,11 +101,13 @@ body{
 .menu{
     width: 230px;
     height: calc(100vh - 100px);
+    background-color: #000000;
 }
 
 /* app_main */
 
 .app_main{
+    background-color: #141922;
     width: calc(100% - 230px);
     height: calc(100vh - 100px);
     overflow: auto;
