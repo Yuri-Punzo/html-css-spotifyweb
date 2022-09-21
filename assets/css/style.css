@@ -111,8 +111,10 @@ body {
 
 .menu {
     background-color: #000000;
+    color: white;
     width: 230px;
-    height: ca lc(100vh - 100px);
+    height: calc(100vh - 100px);
+    overflow: hidden;
 }
 
 /* app_main */
