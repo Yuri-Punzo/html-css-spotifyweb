@@ -147,7 +147,8 @@ body {
 
 .left_controller>.info {
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .left_controller i {
@@ -164,7 +165,25 @@ i {
     color: #5a5a5a;
 }
 
+.right_controller i{
+    color: white;
+    margin-right: 15px;    
+}
 
+.volume_bar{
+    background-color: #5a5a5a;
+    width: 118px;
+    height: 4px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.volume_layer{
+    background-color: #c1c1c1;
+    width: 24px;
+    height: 4px;
+    border-radius: 10px;
+}
 
 /* #endregion footer */
 
