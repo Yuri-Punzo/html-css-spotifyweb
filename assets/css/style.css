@@ -44,7 +44,7 @@ body {
     justify-content: space-between;
 }
 
-.align_center{
+.align_center {
     align-items: center;
 }
 
@@ -109,9 +109,9 @@ body {
 /* menu */
 
 .menu {
-    width: 230px;
-    height: calc(100vh - 100px);
     background-color: #000000;
+    width: 230px;
+    height: ca lc(100vh - 100px);
 }
 
 /* app_main */
@@ -133,10 +133,17 @@ body {
     background-color: #282828;
 }
 
-.player img{
-    height: 40%;
+.player img {
+    height: 10%;
     margin-left: 10px;
-    /* align-self: center; */
+}
+
+.left_controller>.info {
+    margin-left: 10px;
+}
+
+.left_controller i{
+    margin-left: 15px;
 }
 
 /* #endregion footer */
