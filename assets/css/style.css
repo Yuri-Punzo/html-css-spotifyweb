@@ -26,13 +26,12 @@ body {
 .debug3 {
     background-color: #ff0000;
     height: 100px;
-    width: 200px;
+    width: 230px;
 }
 
-.flex_row {
+.flex {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .flex_column {
@@ -43,6 +42,10 @@ body {
 
 .space_between {
     justify-content: space-between;
+}
+
+.align_center{
+    align-items: center;
 }
 
 
@@ -128,6 +131,12 @@ body {
 #site_footer {
     height: 100px;
     background-color: #282828;
+}
+
+.player img{
+    height: 40%;
+    margin-left: 10px;
+    /* align-self: center; */
 }
 
 /* #endregion footer */
