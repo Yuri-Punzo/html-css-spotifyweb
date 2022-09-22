@@ -19,16 +19,6 @@ body {
     background-color: indigo;
 }
 
-.debug2 {
-    background-color: fuchsia;
-}
-
-.debug3 {
-    background-color: #ff0000;
-    height: 100px;
-    width: 100px;
-}
-
 .flex {
     display: flex;
     flex-wrap: wrap;
