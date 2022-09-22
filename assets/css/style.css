@@ -435,8 +435,35 @@ i {
         display: none;
     }
 
+    .home {
+        border: none;
+    }
+
+    .menu_top img:not(.logo) {
+        margin: 7px;
+        width: 70%;
+    }
+
+    .menu_bot img {
+        margin: 0 0;
+    }
+
+    .menu_bot{
+        margin: 0 0;
+    }
+
     .install {
         border: none;
+    }
+
+    .install img {
+        width: 100%;
+        margin-right: 7px;
+    }
+
+    .user img {
+        width: 100%;
+        margin: 7px;
     }
 
     .logo_xsm {
