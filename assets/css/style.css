@@ -407,16 +407,24 @@ i {
 }
 
 @media screen and (max-width: 552px) {
-    .volume_bar {
-        display: none;
+    
+    .flex_column_xsm {
+        display: flex;
+        flex-direction: column;
     }
-
+    
+    
+    
+    
+    
+    
+    .volume_bar,
     .player img {
         display: none;
     }
 
     .fa-volume-high {
-        padding-left: 70px;
+        padding-left: 85px;
     }
 }
 
