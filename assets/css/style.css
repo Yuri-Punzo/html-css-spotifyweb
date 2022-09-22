@@ -103,7 +103,7 @@ body {
 
 /* #region main */
 
-.wrapper{
+.wrapper {
     height: calc(100vh - 100px);
 }
 
@@ -130,16 +130,16 @@ body {
     overflow: auto;
 }
 
-.upgrade{
+.upgrade {
     background-color: #000000a8;
     position: -webkit-sticky;
     position: sticky;
-    top:0;
+    top: 0;
     text-align: right;
     width: 100%;
 }
 
-.upgrade_btn{
+.upgrade_btn {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -150,15 +150,60 @@ body {
     font-size: 14px;
 }
 
-.categories{
-    width: 100%;
+.categories {
     text-align: center;
+    width: 100%;
     margin: 20px 0;
 }
 
-.card{
+.categories a {
+    text-decoration: none;
+    color: #7d7f84;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.selection{
+    border-bottom: 1px solid #adff2f;
+}
+
+.app_main h2, p{
+    margin: 15px;
+}
+
+.app_main h2{
+    color: white;
+}
+
+.app_main p{
+    color: #7d7f84;
+}
+
+.app_main .album{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 15px 0 6px 0;
+}
+
+.app_main .brano{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #7d7f84;
+}
+
+.card {
     margin: 15px;
     text-align: center;
+}
+
+.round_img{
+    border-radius: 50%;
 }
 
 /* #endregion main */
@@ -195,7 +240,7 @@ body {
     margin-left: 15px;
 }
 
-.left_controller a{
+.left_controller a {
     text-decoration: none;
     color: white;
 }
@@ -204,29 +249,30 @@ body {
 i {
     color: #5a5a5a;
 }
+
 /* /left controller */
 
 /* central controller */
 
-.central_controller i{
+.central_controller i {
     color: white;
     margin: 10px 15px;
 }
 
-.fa-circle-play{
+.fa-circle-play {
     font-size: 32px;
 }
 
-.controller_top{
+.controller_top {
     width: 100%;
 }
 
-.controller_bot{
+.controller_bot {
     margin-bottom: 20px;
     font-size: 12px;
 }
 
-.time_bar{
+.time_bar {
     background-color: #5a5a5a;
     width: 430px;
     height: 4px;
@@ -234,22 +280,23 @@ i {
     margin: 0 20px;
 }
 
-.time_layer{
+.time_layer {
     background-color: #c1c1c1;
     width: 85px;
     height: 4px;
     border-radius: 10px;
 }
+
 /* /central controller */
 
 /* right controller */
 
-.right_controller i{
+.right_controller i {
     color: white;
-    margin-right: 15px;    
+    margin-right: 15px;
 }
 
-.volume_bar{
+.volume_bar {
     background-color: #5a5a5a;
     width: 118px;
     height: 4px;
@@ -257,12 +304,13 @@ i {
     margin-right: 10px;
 }
 
-.volume_layer{
+.volume_layer {
     background-color: #c1c1c1;
     width: 24px;
     height: 4px;
     border-radius: 10px;
 }
+
 /* /right controller */
 
 
