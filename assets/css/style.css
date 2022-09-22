@@ -287,8 +287,11 @@ p {
 }
 
 .relative:hover .play_hover{
-    cursor: pointer;
     opacity: 4;
+}
+
+.relative:hover{
+    cursor: pointer;
 }
 
 .round_img {
