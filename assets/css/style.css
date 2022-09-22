@@ -121,6 +121,10 @@ body {
     width: 15%;
 }
 
+.logo_xsm {
+    display: none;
+}
+
 .logo {
     margin: 20px;
     width: 60%;
@@ -407,20 +411,41 @@ i {
 }
 
 @media screen and (max-width: 552px) {
-    
+
+    .menu {
+        width: 50px;
+    }
+
+    .app_main {
+        width: calc(100% - 50px);
+    }
+
     .flex_column_xsm {
         display: flex;
         flex-direction: column;
     }
-    
-    
-    
-    
-    
-    
+
+    .logo,
+    span,
+    h4,
+    .playlists,
+    .fa-plus,
     .volume_bar,
     .player img {
         display: none;
+    }
+
+    .install {
+        border: none;
+    }
+
+    .logo_xsm {
+        margin-left: 20px;
+    }
+
+    .logo_xsm,
+    .vertical_volume_bar {
+        display: block;
     }
 
     .fa-volume-high {
