@@ -117,8 +117,14 @@ body {
     overflow: hidden;
 }
 
-.menu img {
-    width: 30%;
+.menu img:not(.logo) {
+    margin: 10px 10px 10px 20px;
+    width: 15%;
+}
+
+.logo{
+    margin: 20px;
+    width: 60%;
 }
 
 /* app_main */
