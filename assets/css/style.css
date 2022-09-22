@@ -164,23 +164,24 @@ body {
     margin: 0 10px;
 }
 
-.selection{
+.selection {
     border-bottom: 1px solid #adff2f;
 }
 
-.app_main h2, p{
+.app_main h2,
+p {
     margin: 15px;
 }
 
-.app_main h2{
+.app_main h2 {
     color: white;
 }
 
-.app_main p{
+.app_main p {
     color: #7d7f84;
 }
 
-.app_main .album{
+.app_main .album {
     display: inline-block;
     text-decoration: none;
     font-size: 16px;
@@ -189,7 +190,7 @@ body {
     margin: 15px 0 6px 0;
 }
 
-.app_main .brano{
+.app_main .brano {
     display: inline-block;
     text-decoration: none;
     font-size: 12px;
@@ -202,7 +203,7 @@ body {
     text-align: center;
 }
 
-.round_img{
+.round_img {
     border-radius: 50%;
 }
 
