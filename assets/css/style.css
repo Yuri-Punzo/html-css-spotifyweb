@@ -332,7 +332,7 @@ i {
 
 .time_bar {
     background-color: #5a5a5a;
-    width: 430px;
+    width: 30vw;
     height: 4px;
     border-radius: 10px;
     margin: 0 20px;
@@ -340,7 +340,7 @@ i {
 
 .time_layer {
     background-color: #c1c1c1;
-    width: 85px;
+    width: 8vw;
     height: 4px;
     border-radius: 10px;
 }
