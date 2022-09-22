@@ -26,7 +26,7 @@ body {
 .debug3 {
     background-color: #ff0000;
     height: 100px;
-    width: 230px;
+    width: 100px;
 }
 
 .flex {
@@ -117,13 +117,26 @@ body {
     overflow: hidden;
 }
 
+.menu img {
+    width: 30%;
+}
+
 /* app_main */
+
+.wrapper{
+    max-width: 1440px;
+}
 
 .app_main {
     background-color: #141922;
     width: calc(100% - 230px);
     height: calc(100vh - 100px);
     overflow: auto;
+}
+
+.card{
+    margin: 15px;
+    text-align: center;
 }
 
 /* #endregion main */
@@ -135,6 +148,7 @@ body {
     background-color: #282828;
     height: 100px;
     color: white;
+    max-width: 1440px;
 }
 
 .left_controller,
