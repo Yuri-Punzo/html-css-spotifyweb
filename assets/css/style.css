@@ -337,6 +337,13 @@ i {
 
 /* #region media queries */
 
+@media screen and (max-width: 640px){
+    .flex_column_sm{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
 
 
 /* #endregion media queries */
