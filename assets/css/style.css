@@ -412,17 +412,17 @@ i {
 
 @media screen and (max-width: 552px) {
 
+    .flex_column_xsm {
+        display: flex;
+        flex-direction: column;
+    }
+
     .menu {
         width: 50px;
     }
 
     .app_main {
         width: calc(100% - 50px);
-    }
-
-    .flex_column_xsm {
-        display: flex;
-        flex-direction: column;
     }
 
     .logo,
@@ -448,7 +448,7 @@ i {
         margin: 0 0;
     }
 
-    .menu_bot{
+    .menu_bot {
         margin: 0 0;
     }
 
@@ -470,8 +470,7 @@ i {
         margin-left: 20px;
     }
 
-    .logo_xsm,
-    .vertical_volume_bar {
+    .logo_xsm {
         display: block;
     }
 
