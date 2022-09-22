@@ -48,6 +48,12 @@ body {
     align-items: flex-end;
 }
 
+.relative{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 .col_1 {
     width: calc(100% / 12 * 1);
 }
@@ -265,6 +271,25 @@ p {
     margin: 10px 15px;
 }
 
+.card img{
+    z-index: 1;
+}
+
+.play_hover{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 100;
+    opacity: 0;
+}
+
+.relative:hover .play_hover{
+    opacity: 4;
+}
+
 .round_img {
     border-radius: 50%;
 }
@@ -326,7 +351,7 @@ i {
     margin: 10px 15px;
 }
 
-.fa-circle-play {
+.controller_top .fa-circle-play {
     font-size: 32px;
 }
 
@@ -477,6 +502,12 @@ i {
     .fa-volume-high {
         padding-left: 70px;
         padding-right: 15px;
+    }
+}
+
+@media screen and (max-height: 600px){
+    .upgrade{
+        display: none;
     }
 }
 
