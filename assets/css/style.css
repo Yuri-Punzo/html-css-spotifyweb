@@ -103,7 +103,7 @@ body {
 
 /* #region main */
 
-#site_main {
+.wrapper{
     height: calc(100vh - 100px);
 }
 
@@ -113,7 +113,7 @@ body {
     background-color: #000000;
     color: white;
     width: 230px;
-    height: calc(100vh - 100px);
+    height: 100%;
     overflow: hidden;
 }
 
@@ -123,15 +123,37 @@ body {
 
 /* app_main */
 
-.wrapper{
-    max-width: 1440px;
-}
-
 .app_main {
     background-color: #141922;
     width: calc(100% - 230px);
-    height: calc(100vh - 100px);
+    height: 100%;
     overflow: auto;
+}
+
+.upgrade{
+    background-color: #000000a8;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    text-align: right;
+    width: 100%;
+}
+
+.upgrade_btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 40px;
+    margin: 30px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.categories{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .card{
@@ -148,7 +170,6 @@ body {
     background-color: #282828;
     height: 100px;
     color: white;
-    max-width: 1440px;
 }
 
 .left_controller,
