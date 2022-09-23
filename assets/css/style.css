@@ -489,7 +489,9 @@ a:hover {
     cursor: pointer;
 }
 
-
+.upgrade:hover .upgrade_btn{
+    transform: scale(120%);
+}
 
 /* #endregion hover effects */
 
