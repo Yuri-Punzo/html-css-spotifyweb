@@ -294,6 +294,10 @@ p {
     cursor: pointer;
 }
 
+.relative:hover .cover{
+    filter: brightness(50%);
+}
+
 .round_img {
     border-radius: 50%;
 }
