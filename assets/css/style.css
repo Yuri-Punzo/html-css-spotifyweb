@@ -233,7 +233,12 @@ body {
 }
 
 .selection {
-    border-bottom: 1px solid #adff2f;
+    position: absolute;    
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #adff2f;
+    height: 2px;
+    width: 30px;
 }
 
 .app_main h2,
@@ -275,32 +280,10 @@ p {
     z-index: 1;
 }
 
-.play_hover{
-    font-size: 80px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    z-index: 100;
-    opacity: 0;
-}
-
-.relative:hover .play_hover{
-    opacity: 4;
-}
-
-.relative:hover{
-    cursor: pointer;
-}
-
-.relative:hover .cover{
-    filter: brightness(50%);
-}
-
 .round_img {
     border-radius: 50%;
 }
+
 
 /* #endregion main */
 
@@ -349,10 +332,6 @@ i {
 /* /left controller */
 
 /* central controller */
-
-/* .central_controller{
-    width: 33%;
-} */
 
 .central_controller i {
     color: white;
@@ -415,6 +394,35 @@ i {
 
 
 /* #endregion footer */
+
+
+/* #region hover effects */
+
+.play_hover{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 100;
+    opacity: 0;
+}
+
+.relative:hover .play_hover{
+    opacity: 4;
+}
+
+.relative:hover{
+    cursor: pointer;
+}
+
+.relative:hover .cover{
+    filter: brightness(50%);
+}
+
+
+/* #endregion hover effects */
 
 
 /* #region media queries */
