@@ -467,8 +467,8 @@ i {
     }
 
     .logo,
-    span,
-    h4,
+    .menu span,
+    .menu h4,
     .playlists,
     .fa-plus,
     .volume_bar,
