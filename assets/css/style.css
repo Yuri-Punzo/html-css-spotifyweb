@@ -365,6 +365,17 @@ i {
     border-radius: 10px;
 }
 
+.dot{
+    position: absolute;
+    top: -170%;
+    left: 21%;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+}
+
 /* /central controller */
 
 /* right controller */
@@ -458,6 +469,10 @@ a:hover {
     cursor: pointer;
 }
 
+.home:hover{
+    cursor: pointer;
+}
+
 .search:hover .icon {
     filter: none;
 }
@@ -492,6 +507,35 @@ a:hover {
 .upgrade:hover .upgrade_btn{
     transform: scale(120%);
 }
+
+.controller_bot:hover .time_layer{
+    background-color: #adff2f;
+}
+
+.controller_bot:hover .dot{
+    opacity: 4;
+}
+
+.controller_bot:hover{
+    cursor: pointer;
+}
+
+.volume:hover .volume_layer{
+    background-color: #adff2f;
+}
+
+.volume:hover .dot{
+    opacity: 4;
+}
+
+.volume:hover{
+    cursor: pointer;
+}
+
+#play_btn:hover {
+    transform: scale(140%);
+}
+
 
 /* #endregion hover effects */
 
@@ -586,10 +630,14 @@ a:hover {
         display: block;
     }
 
-    .fa-volume-high {
-        padding-left: 70px;
-        padding-right: 15px;
+    .right_controller i{
+        margin: 0 0;
     }
+
+    .fa-volume-high {
+        padding: 30px;
+    }
+
 }
 
 @media screen and (max-height: 600px) {
