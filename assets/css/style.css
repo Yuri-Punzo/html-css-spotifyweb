@@ -539,7 +539,7 @@ a:hover {
     cursor: pointer;
 }
 
-.upgrade:hover .upgrade_btn {
+.upgrade_btn:hover {
     transform: scale(120%);
 }
 
